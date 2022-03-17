@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOOD100</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/icons.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="images/product2.jpg">
+</head>
+
+<body>
+    <form>
+        <header class="header">
+            <h1 class="header__title">FOOD100</h1>
+            <p class="header__descr">FAST FOOD 100 уровня</p>
+            <div class="header__timer">
+                <span class="header__timer-extra">0</span> LVL
+            </div>
+         
+
+        </header>
+        <main class="main">
+           <div class="preloader">
+               <div class="preloader__element">
+                   
+               </div>
+           </div>
+            
+                    
+                    
+                
+        </main>
+        <div class="button">
+            <!-- Кнопка заказа -->
+            <button class="addCart" type="reset">
+                <span class="fa-reg cart"></span> Заказать
+            </button>
+        </div>
+    </form>
+    <div class="receipt active">
+        <!-- Чек -->
+        <div class="receipt__window">
+            <h2 class="receipt__window-title">FOOD100 LVL</h2>
+
+            <!-- Вывод информации в чек  -->
+            <div class="receipt__window-out"></div>
+
+            <button class="receipt__window-btn">Оплатить</button> <!-- При нажатии страница обновляется -->
+        </div>
+    </div>
+
+    <div class="view">
+        <button class="view__close">
+            <span class="fa-reg close"></span>
+        </button>
+        <img src="images/product1.jpg" alt="">
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

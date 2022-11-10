@@ -415,6 +415,9 @@ a {
     .main {
         width: 95%;
     }
+    .receipt.active .receipt__window{
+        width: 70%;
+    }
 }
 
 
